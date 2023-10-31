@@ -6,7 +6,7 @@ csrf = CSRFProtect(app)
 
 @app.route("/")
 def pagina_inicial():
-    return "Olá, essa é minha aplicação em Python e Flask"
+    return "Olá, essa é minha aplicação em Python e Flask, apresentando."
 
 
 @app.route('/bug')                                                                                                                                
